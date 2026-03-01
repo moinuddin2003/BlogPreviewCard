@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Figtree', sans-serif;
-    font-size: 16px;
 }
 
 body{
@@ -23,8 +22,10 @@ body{
     max-width: 20rem;
     box-sizing: border-box;
     border-radius: 1rem;
-    border-right: 3px solid hsl(0, 0%, 0%);
-    border-bottom: 3px solid hsl(0, 0%, 0%);
+    border-right: 6px solid hsl(0, 0%, 0%);
+    border-bottom: 6px solid hsl(0, 0%, 0%);
+    border-top: 1px solid hsl(0, 0%, 0%);
+    border-left: 1px solid hsl(0, 0%, 0%);
 }
 
 .card-intro{
@@ -55,6 +56,23 @@ h1{
     font-size: 0.75rem;
     height: 100%;
     align-self: flex-start;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.author p {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.author img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
 }
 
 .attribution {
