@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background-color:  hsl(47, 88%, 63%);
+    /* color: hsl(0, 0%, 100%); */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card
+{
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    width: 90%;
+    max-width: 20rem;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border-right: 3px solid hsl(0, 0%, 0%);
+    border-bottom: 3px solid hsl(0, 0%, 0%);
+}
+
+.card-intro{
+    display: flex;
+    gap:0.5rem;
+    flex-direction: column;
+}
+.img img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+h1{
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.p,.date{
+    font-size: 0.8rem;
+}
+.learning
+{
+    background-color:  hsl(47, 88%, 63%);
+    display:inline-block;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.3rem;
+    font-weight: 800;
+    font-size: 0.75rem;
+    height: 100%;
+    align-self: flex-start;
+}
+
+.attribution {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    text-align: center;
+}
